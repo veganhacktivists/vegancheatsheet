@@ -18,5 +18,5 @@ file_put_contents($visitorsFilename, $hits);
     <link rel="shortcut icon" href="favicon.ico" />
 </head>
 <body style="margin:0px;padding:0px;overflow:hidden">
-    <iframe src="https://docs.google.com/spreadsheets/d/19Cm5yHp16zSTSFrQ3B_3_vIK0b5QlJ8jpyPVrPrCKS0/edit#gid=0&widget=false&chrome=false&headers=false" frameborder="0" style="overflow:hidden;height:100%;width:100%" height="100%" width="100%"></iframe>
+    <iframe src="https://docs.google.com/spreadsheets/d/19Cm5yHp16zSTSFrQ3B_3_vIK0b5QlJ8jpyPVrPrCKS0/edit#gid=0" frameborder="0" style="overflow:hidden;height:100%;width:100%" height="100%" width="100%"></iframe>
 </body>
