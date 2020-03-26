@@ -16,6 +16,11 @@ file_put_contents($visitorsFilename, $hits);
 <head>
     <title>Vegan Cheat Sheet - The largest directory of updated vegan links and resources!</title>
     <link rel="shortcut icon" href="favicon.ico" />
+    <style>
+       html, body {
+           height: 100%;
+       }
+    </style>
 </head>
 <body style="margin:0px;padding:0px;overflow:hidden">
     <iframe src="https://docs.google.com/spreadsheets/d/19Cm5yHp16zSTSFrQ3B_3_vIK0b5QlJ8jpyPVrPrCKS0/edit#gid=0" frameborder="0" style="overflow:hidden;height:100%;width:100%" height="100%" width="100%"></iframe>
