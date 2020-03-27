@@ -5,13 +5,13 @@ header('Location: https://docs.google.com/spreadsheets/d/19Cm5yHp16zSTSFrQ3B_3_v
 // thank you http://detectmobilebrowsers.com
 
 $visitorsFilename = __DIR__ . '/visitors.txt';
-$hits = 14000;
+$hits = 14500;
 if (file_exists($visitorsFilename)) {
-    $hits = (int) file_get_contents($visitorsFilename);
+    /*$hits = (int) file_get_contents($visitorsFilename);
     $hits++;
-    if (hits < 14000) {
+    if ($hits < 14000) {
         $hits += 14000;
-    }
+    }*/
 }
 file_put_contents($visitorsFilename, $hits);
 ?>
