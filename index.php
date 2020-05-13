@@ -8,6 +8,9 @@ $visitorsFilename = __DIR__ . '/visitors.txt';
 $hits = 14500;
 if (file_exists($visitorsFilename)) {
     $hits = (int) file_get_contents($visitorsFilename);
+    if ($hits < 20000) {
+        $hits = 20000;
+    }
     $hits++;
 }
 file_put_contents($visitorsFilename, $hits);
