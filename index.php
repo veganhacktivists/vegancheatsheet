@@ -31,7 +31,7 @@ file_put_contents($visitorsFilename, $hits);
     <link rel="shortcut icon" href="favicon.ico" />
     <style>
        html, body {
-           height: 100%; 
+           height: 100%;
        }
     </style>
 </head>
