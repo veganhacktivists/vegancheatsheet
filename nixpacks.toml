@@ -80,9 +80,9 @@
 [phases.build]
 cmds = [
   "...",
-  "chown -R www-data /app",
   'cp /app/php-fpm.conf /assets/php-fpm.conf',
-  # "mkdir /app/dist",
-  # "cp /app/index.php /app/dist/",
-  # "cp /app/favicon.ico /app/dist/",
+  "mkdir /app/dist",
+  "cp /app/index.php /app/dist/",
+  "cp /app/favicon.ico /app/dist/",
+  "chown -R www-data /app",
 ]
