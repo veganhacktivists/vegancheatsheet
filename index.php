@@ -4,7 +4,8 @@ if(preg_match('/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|blazer|c
 header('Location: https://docs.google.com/spreadsheets/d/19Cm5yHp16zSTSFrQ3B_3_vIK0b5QlJ8jpyPVrPrCKS0/edit#gid=0');
 // thank you http://detectmobilebrowsers.com
 
-$visitorsFilename = '/visitors.txt';
+$path = getenv('VISITOR_PATH') ?? '.';
+$visitorsFilename = $path . '/visitors.txt';
 $hits = 14500;
 if (file_exists($visitorsFilename)) {
     $hits = (int) file_get_contents($visitorsFilename);
