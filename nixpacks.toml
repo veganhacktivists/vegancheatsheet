@@ -3,5 +3,4 @@ cmds = [
 "mkdir /app/dist",
 "cp /app/index.php /app/dist/",
 "cp /app/favicon.ico /app/dist/",
-"cp /app/visitors.txt /app/dist/"
 ]
