@@ -38,6 +38,5 @@ file_put_contents($visitorsFilename, $hits);
     </style>
 </head>
 <body style="margin:0px;padding:0px;overflow:hidden">
-    <!--iframe src="https://docs.google.com/spreadsheets/d/19Cm5yHp16zSTSFrQ3B_3_vIK0b5QlJ8jpyPVrPrCKS0/edit#gid=0" frameborder="0" style="overflow:hidden;height:100%;width:100%" height="100%" width="100%"></iframe -->
-    <iframe src="https://docs.google.com/spreadsheets/d/193PVIjus_J_TC-M3yxQKd2Bi_OssNm4kwm1vCczvE30/edit?usp=sharing" frameborder="0" style="overflow:hidden;height:100%;width:100%" height="100%" width="100%"></iframe>
+    <iframe src="https://docs.google.com/spreadsheets/d/19Cm5yHp16zSTSFrQ3B_3_vIK0b5QlJ8jpyPVrPrCKS0/edit#gid=0" frameborder="0" style="overflow:hidden;height:100%;width:100%" height="100%" width="100%"></iframe>
 </body>
