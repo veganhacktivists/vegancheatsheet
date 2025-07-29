@@ -1,3 +1,6 @@
+[phases.setup]
+nixpkgsArchive = 'be9e214982e20b8310878ac2baa063a961c1bdf6'
+
 [staticAssets]
 'nginx.conf' = '''
   user www-data www-data;
