@@ -1,5 +1,5 @@
 [phases.setup]
-nixpkgsArchive = '9885d46f5002d060d38adda8cc3d789847e12a2a'
+nixpkgsArchive = '7792ada0b17b9e56c318bdad0953fc75d5edb256'
 
 [staticAssets]
 'nginx.conf' = '''
