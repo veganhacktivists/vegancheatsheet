@@ -13,3 +13,12 @@ much much more! Designed to be a vital link to share with new vegans!
 ## Setup
 
 See the [Vegan Hacktivists documentation](https://github.com/veganhacktivists/documentation).
+
+## Tests
+
+```
+php tests/run.php
+```
+
+The suite starts the built-in server against the repository root and requests
+the page as a mobile and a desktop visitor. No dependencies.
