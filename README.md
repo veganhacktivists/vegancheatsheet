@@ -12,7 +12,11 @@ much much more! Designed to be a vital link to share with new vegans!
 
 ## Setup
 
-See the [Vegan Hacktivists documentation](https://github.com/veganhacktivists/documentation).
+Requires PHP. There is nothing to install — the page is a single `index.php`.
+
+```
+php -S localhost:8000
+```
 
 ## Tests
 
