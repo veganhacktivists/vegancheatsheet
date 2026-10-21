@@ -5,7 +5,7 @@ nixOverlays = ['...', 'https://github.com/veganhacktivists/nixpkgs-php-overlay/a
 [phases.install]
 cmds = [
   'php -v',
-  '''php -r 'if (version_compare(PHP_VERSION, "8.4.26", "<")) { fwrite(STDERR, "PHP " . PHP_VERSION . " is older than required version\n"); exit(1); }' ''',
+  '''php -r 'if (version_compare(PHP_VERSION, "8.3.35", "<")) { fwrite(STDERR, "PHP " . PHP_VERSION . " is older than required version\n"); exit(1); }' ''',
   '...',
 ]
 
