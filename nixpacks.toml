@@ -1,5 +1,13 @@
 [phases.setup]
 nixpkgsArchive = 'fb122f52ed3bc13fb7dcfb217a437e19219a125e'
+nixOverlays = ['...', 'https://github.com/veganhacktivists/nixpkgs-php-overlay/archive/2d9868fbe0b05663b811b3e769e1f21264cd371c.tar.gz']
+
+[phases.install]
+cmds = [
+  'php -v',
+  '''php -r 'if (version_compare(PHP_VERSION, "8.3.37", "<")) { fwrite(STDERR, "PHP " . PHP_VERSION . " is older than required version\n"); exit(1); }' ''',
+  '...',
+]
 
 [staticAssets]
 'nginx.conf' = '''
